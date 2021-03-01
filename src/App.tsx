@@ -5,10 +5,13 @@ const DAYS = ['Пн', 'Вт', 'Ср', 'Чт', 'Пт', 'Сб', 'Вс'];
 
 function TableElement({day, dance, month}: { day: number, dance?: string, month?: string }): React.ReactElement {
     const date = new Date();
-    return <td style={date.getDate() === day ? {
-        outline: '3px orange solid'
-    } : undefined}>
-        {day}&nbsp;{month || "февраля"}<br/>
+    return <td style={date.getDate() === day
+    && ((date.getMonth() === 2 && !month) // current month and current day
+        || (date.getMonth() > 2 && !!month)) // next month and current day
+        ? {
+            outline: '3px orange solid'
+        } : undefined}>
+        {day}&nbsp;{month || "марта"}<br/>
         {dance && `20.00-22.00 ${dance}`}
     </td>
 }
