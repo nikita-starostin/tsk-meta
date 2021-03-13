@@ -52,47 +52,46 @@ function App() {
                             <TableElement day={7}/>
                         </tr>
                         <tr>
-                            <TableElement day={8}
-                                          dance={WALTZ}/>
+                            <TableElement day={8}/>
                             <TableElement day={9}
                                           dance={JIVE}/>
                             <TableElement day={10}/>
                             <TableElement day={11}
                                           dance={SAMBA}/>
                             <TableElement day={12}
-                                          dance={TANGO}/>
+                                          dance={WALTZ}/>
                             <TableElement day={13}/>
                             <TableElement day={14}/>
                         </tr>
                         <tr>
                             <TableElement day={15}
-                                          dance={WENSKII_WALTZ}/>
+                                          dance={TANGO}/>
                             <TableElement day={16}
                                           dance={CHACHA}/>
                             <TableElement day={17}/>
                             <TableElement day={18}
                                           dance={RUMBA}/>
                             <TableElement day={19}
-                                          dance={SLOWFOX}/>
+                                          dance={WENSKII_WALTZ}/>
                             <TableElement day={20}/>
                             <TableElement day={21}/>
                         </tr>
                         <tr>
                             <TableElement day={22}
-                                          dance={QUICKSTEP}/>
+                                          dance={SLOWFOX}/>
                             <TableElement day={23}
                                           dance={PASSODOBLE}/>
                             <TableElement day={24}/>
                             <TableElement day={25}
                                           dance={JIVE}/>
                             <TableElement day={26}
-                                          dance={WALTZ}/>
+                                          dance={QUICKSTEP}/>
                             <TableElement day={27}/>
                             <TableElement day={28}/>
                         </tr>
                         <tr>
                             <TableElement day={29}
-                                          dance={TANGO}/>
+                                          dance={WALTZ}/>
                             <TableElement day={30}
                                           dance={SAMBA}/>
                             <TableElement day={31}/>
@@ -101,7 +100,7 @@ function App() {
                                           dance={CHACHA}/>
                             <TableElement day={2}
                                           month={'апреля'}
-                                          dance={WENSKII_WALTZ}/>
+                                          dance={TANGO}/>
                             <TableElement day={3}
                                           month={'апреля'}/>
                             <TableElement day={4}
