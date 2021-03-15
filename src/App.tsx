@@ -24,7 +24,7 @@ const QUICKSTEP = "Квикстеп";
 const SAMBA = "Самба";
 const CHACHA = "Ча-ча-ча";
 const RUMBA = "Румба";
-const PASSODOBLE = "Пассодобль";
+const PASODOBLE = "Пасодобль";
 const JIVE = "Джайв";
 
 function App() {
@@ -45,7 +45,7 @@ function App() {
                                           dance={RUMBA}/>
                             <TableElement day={3}/>
                             <TableElement day={4}
-                                          dance={PASSODOBLE}/>
+                                          dance={PASODOBLE}/>
                             <TableElement day={5}
                                           dance={QUICKSTEP}/>
                             <TableElement day={6}/>
@@ -80,7 +80,7 @@ function App() {
                             <TableElement day={22}
                                           dance={SLOWFOX}/>
                             <TableElement day={23}
-                                          dance={PASSODOBLE}/>
+                                          dance={PASODOBLE}/>
                             <TableElement day={24}/>
                             <TableElement day={25}
                                           dance={JIVE}/>
