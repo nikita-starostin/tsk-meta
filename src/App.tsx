@@ -11,7 +11,7 @@ function TableElement({day, dance, month}: { day: number, dance?: string, month?
         ? {
             outline: '3px orange solid'
         } : undefined}>
-        {day}&nbsp;{month || "марта"}<br/>
+        {day}&nbsp;{month || "апреля"}<br/>
         {dance && `20.00-22.00 ${dance}`}
     </td>
 }
@@ -39,72 +39,58 @@ function App() {
                         </thead>
                         <tbody>
                         <tr>
-                            <TableElement day={1}
-                                          dance={SLOWFOX}/>
-                            <TableElement day={2}
-                                          dance={RUMBA}/>
-                            <TableElement day={3}/>
-                            <TableElement day={4}
-                                          dance={PASODOBLE}/>
                             <TableElement day={5}
-                                          dance={QUICKSTEP}/>
-                            <TableElement day={6}/>
-                            <TableElement day={7}/>
-                        </tr>
-                        <tr>
-                            <TableElement day={8}/>
-                            <TableElement day={9}
-                                          dance={JIVE}/>
-                            <TableElement day={10}/>
-                            <TableElement day={11}
-                                          dance={SAMBA}/>
-                            <TableElement day={12}
-                                          dance={WALTZ}/>
-                            <TableElement day={13}/>
-                            <TableElement day={14}/>
-                        </tr>
-                        <tr>
-                            <TableElement day={15}
                                           dance={TANGO}/>
-                            <TableElement day={16}
-                                          dance={CHACHA}/>
-                            <TableElement day={17}/>
-                            <TableElement day={18}
+                            <TableElement day={6}
                                           dance={RUMBA}/>
-                            <TableElement day={19}
-                                          dance={WENSKII_WALTZ}/>
-                            <TableElement day={20}/>
-                            <TableElement day={21}/>
-                        </tr>
-                        <tr>
-                            <TableElement day={22}
-                                          dance={SLOWFOX}/>
-                            <TableElement day={23}
+                            <TableElement day={7}/>
+                            <TableElement day={8}
                                           dance={PASODOBLE}/>
-                            <TableElement day={24}/>
-                            <TableElement day={25}
-                                          dance={JIVE}/>
-                            <TableElement day={26}
-                                          dance={QUICKSTEP}/>
-                            <TableElement day={27}/>
-                            <TableElement day={28}/>
+                            <TableElement day={9}
+                                          dance={WENSKII_WALTZ}/>
+                            <TableElement day={10}/>
+                            <TableElement day={11}/>
                         </tr>
                         <tr>
-                            <TableElement day={29}
-                                          dance={WALTZ}/>
-                            <TableElement day={30}
+                            <TableElement day={12}
+                                          dance={SLOWFOX}/>
+                            <TableElement day={13}
+                                          dance={JIVE}/>
+                            <TableElement day={14}/>
+                            <TableElement day={15}
                                           dance={SAMBA}/>
-                            <TableElement day={31}/>
-                            <TableElement day={1}
-                                          month={'апреля'}
+                            <TableElement day={16}
+                                          dance={QUICKSTEP}/>
+                            <TableElement day={17}/>
+                            <TableElement day={18}/>
+                        </tr>
+                        <tr>
+                            <TableElement day={19}
+                                          dance={WALTZ}/>
+                            <TableElement day={20}
                                           dance={CHACHA}/>
-                            <TableElement day={2}
-                                          month={'апреля'}
+                            <TableElement day={21}/>
+                            <TableElement day={22}
+                                          dance={RUMBA}/>
+                            <TableElement day={23}
                                           dance={TANGO}/>
-                            <TableElement day={3}
-                                          month={'апреля'}/>
-                            <TableElement day={4}
-                                          month={'апреля'}/>
+                            <TableElement day={24}/>
+                            <TableElement day={25}/>
+                        </tr>
+                        <tr>
+                            <TableElement day={26}
+                                          dance={WENSKII_WALTZ}/>
+                            <TableElement day={27}
+                                          dance={PASODOBLE}/>
+                            <TableElement day={28}/>
+                            <TableElement day={29}
+                                          dance={JIVE}/>
+                            <TableElement day={30}
+                                          dance={SLOWFOX}/>
+                            <TableElement day={1}
+                                          month='мая'/>
+                            <TableElement day={2}
+                                          month='мая'/>
                         </tr>
                         </tbody>
                     </table>
