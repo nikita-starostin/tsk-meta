@@ -1,3 +1,4 @@
+// that is configuration file
 export const FIRST_LATIN_INDEX = 0;
 export const FIRST_STANDARD_INDEX = 4;
 export const DAYS_IN_CURRENT_MONTH = 31;
