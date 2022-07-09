@@ -5,6 +5,8 @@ import {WEEK_DAYS, DAYS_PROPS} from './app.constants';
 import TdDay from './components/TdDay/TdDay';
 
 export default function App() {
+    // some more comments for Lidia
+    // new code added
     return (
         <>
             <div className="header-wrapper">
